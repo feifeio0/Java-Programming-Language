@@ -1,0 +1,7 @@
+项目-模块-包
+modules模块 不要中文
+src文件 源代码都要在内部
+src-package（包）
+cn.itcast.day04.demo01多层级文件夹
+//package cn.itcast.day04.demo01
+包文件
