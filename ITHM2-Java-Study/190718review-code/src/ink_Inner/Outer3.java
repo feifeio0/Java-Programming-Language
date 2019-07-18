@@ -17,7 +17,7 @@ public > protected > (default) > private
 2. 成员内部类：public / protected / (default) / private
 3. 局部内部类：什么都不能写
  */
-class Outer {
+class Outer3 {
 
     public void methodOuter() {
         class Inner { // 局部内部类        inner.methodInner();
