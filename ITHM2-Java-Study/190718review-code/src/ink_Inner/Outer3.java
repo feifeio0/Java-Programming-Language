@@ -28,6 +28,7 @@ class Outer3 {
         }
 
         Inner inner = new Inner();
+        inner.methodInner();//10
 
     }
 
