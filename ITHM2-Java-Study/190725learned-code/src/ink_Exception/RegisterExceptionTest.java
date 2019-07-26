@@ -37,7 +37,8 @@ public class RegisterExceptionTest {
                 try{
                     throw new RegisterException("亲，该用户名已经被注册");
                 } catch (RegisterException e) {
-                    e.printStackTrace();
+                    System.out.println(e.getMessage());
+                    //e.printStackTrace();
                     return; //结束方法
                 }
                 //throw new RegisterException("亲，该用户名已经被注册");
