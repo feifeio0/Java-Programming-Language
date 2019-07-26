@@ -64,7 +64,7 @@ public class ExceptionNotice08 {
         }*/
 
         //3. 多个异常一次捕获一次处理。
-        /* {
+        /* try{
             int[] arr = {1,2,3};
             System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
             List<Integer> list = List.of(1, 2, 3);
