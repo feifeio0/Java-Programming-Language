@@ -7,7 +7,7 @@
 2.变量使用不能超过作用域的范围
 3.变量一定先赋值再使用
  */
-public class VariableConst {
+public class 1VariableConst {
     public static void main(String[] args) {
         //整型变量（int）
         int num1;
