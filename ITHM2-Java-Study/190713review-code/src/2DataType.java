@@ -6,7 +6,7 @@
     2.byte/short/char这三种类型都可以发生数学运算
     3.可能发生精度损失、数据溢出
  */
-public class DataType {
+public class 2DataType {
     public static void main(String[] args) {
         //自动类型转换
         double num = 2.5F;
