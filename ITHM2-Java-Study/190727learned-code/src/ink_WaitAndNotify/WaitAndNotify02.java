@@ -4,7 +4,6 @@ package ink_WaitAndNotify;
     1.使用sleep(long m)方法,在毫秒值结束之后,线程睡醒进入到Runnable/Blocked状态
     2.使用wait(long m)方法,wait方法如果在毫秒值结束之后,还没有被notify唤醒,
                 就会自动醒来,线程睡醒进入到Runnable/Blocked状态
-
     唤醒的方法:
          void notify() 唤醒在此对象监视器上等待的单个线程。
          void notifyAll() 唤醒在此对象监视器上等待的所有线程。
